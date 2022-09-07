@@ -1,0 +1,343 @@
+html
+{
+    scroll-behavior:smooth; 
+}
+
+body{
+    padding-top: 19px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: lightyellow;
+}
+
+.navlist1
+{
+    display: flex;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 36px;
+}
+
+.logo img
+{
+    width: 100%;
+}
+
+
+.instituteName
+{
+    font-size: 27px;
+    padding-left: 30px;
+}
+
+p1{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+h1
+{
+    font-size: 40px;
+}
+.navlist2
+{
+    list-style: none;
+    display: flex;
+    background-color: rgb(229,240,81);
+}
+.navlist2 a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: bold;
+    padding: 21px;
+}
+
+.navlist2 a:hover
+{
+    color: grey;
+}
+
+.greet
+{
+    background-color: rgb(229,240,81);
+    font-size:40px;
+}
+
+.background
+{
+    font-color: black;
+    background-color: none;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.sec1
+{
+    display: flex;
+}
+
+.second
+{
+    background-color: none;
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+.second ul
+{
+    text-decoration: none;
+    color: black;
+}
+.second li:hover
+{
+    text-decoration: underline;
+    color: grey;
+}
+
+.sec2
+{
+    background-color: cream;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+.sec2 .i1
+{
+    margin-left: 200px;
+    border: solid;
+    border-color: black;
+    border-radius: 27px;
+}
+
+.sec2 .library
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.sec2 .library img
+{
+   height: 258px;
+    margin: 15px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.sec2 .computing
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sec2 .sports
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sec2 .senate
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sec2 .computing img
+{
+    height: 258px;
+    margin: 15px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.sec2 .senate img
+{
+    height: 195px;
+    margin: 9px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.sec2 .sports img
+{
+    height: 263px;
+    margin: 9px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.sec2 important
+{
+    font-family: "Verdana, Geneva, Tahoma, sans-serif"
+}
+
+.sec3
+{
+    background-color: none;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.sec4
+{
+    background-color: none;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+.sec5
+{
+    background-color: none;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.sec6
+{
+    background-color: none;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+.sec6 div
+{
+    display: flex;
+    align-items: center;
+}
+.sec6 div img
+{
+    width: 200px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin-left: 18px;
+    margin-right: 20px;
+}
+.history 
+{
+    background-color: rgb(229,240,81);
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.contact
+{
+    background-color: none;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.history .H_info
+{
+    display: flex;
+}
+.history .H_info img
+{
+        height: 213px;
+        margin-bottom: 35px;
+        margin-left: 27px;
+        width: 411px;
+        border: solid;
+        border-color: black;
+        border-radius: 26px;
+}
+.history .img_gallery
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding-bottom: 26px;
+}
+.history .img_gallery #i1
+{
+    width: 200px;
+    width: 200px;
+    height: 100px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+.history .img_gallery #i2
+{
+    width: 300px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 300px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+.history .img_gallery #i3
+{
+    width: 253px;
+    width: 244px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+}
+.contact .myform
+{
+    padding-left: 384px;
+}
+.contact .myform .data
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16px;
+    width: 216px;
+    border-radius: 6px;
+    
+}
+.contact .myform .submit
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+footer{
+    align: center;
+    background-color: rgb(229,240,81);
+    font-size: 11px;
+}
+footer ul :hover{
+    text-decoration: underline;
+}
+footer ul {
+    background-color: rgb(229,240,81);
+    display: inline-table;
+    padding-left: 184px;
+}
+footer p
+{
+    margin-left: 243px;
+}
